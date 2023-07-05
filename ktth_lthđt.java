@@ -21,7 +21,7 @@ class NhanVien {
     public double tinhLuong() {
         return 0;
     }
-}
+} 
 
 class NVVanPhong extends NhanVien {
     private double heSoLuong;
@@ -125,7 +125,7 @@ class QLNV {
                 int sanLuong = scanner.nextInt();
                 nhanVienList.add(new CongNhan(hoTen, diaChi, gioiTinh, namSinh, soNamCongTac, heSoLuong, sanLuong));
             }
-            scanner.nextLine(); // Đọc ký tự '\n' sau khi đọc một số từ bàn phím
+            scanner.nextLine();
         }
     }
 
@@ -195,7 +195,7 @@ class QLNV {
 
             System.out.print("Nhập lựa chọn của bạn: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // Đọc ký tự '\n' sau khi đọc một số từ bàn phím
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
